@@ -1,0 +1,26 @@
+/*
+Color Key
+-----------
+
+brown 9d8235
+
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,
+html{
+	height:100%;
+}
+
+body {
+	background: #ffffff;
+	font-family: 'Georgia', ;
+	font-weight: ;
+	text-align: center;
+	color: #9d8235;
+}
