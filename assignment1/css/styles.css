@@ -6,21 +6,122 @@ brown 9d8235
 
 */
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+/*header styles*/
+body{font-family: Georgia;
+color: #9d8235;
+font-size: 12pt;
+font-weight: 100;}
+
+.headerlogo {
+	display:block;
+	margin-left: 540px;
+	margin-right:540px
+	bottom: 40px;
 }
 
-body,
-html{
-	height:100%;
+
+.toprule {
+	border-top: 1px solid #9d8235;
+	width: 470px;
+	margin-left: 470px;
+	margin-right: 470px; 
+	margin-bottom: 20px;
+	margin-top: 40px;
+
+}
+.home { font-weight: bold;
+text-align:center;
+padding-left: 500px;}
+	
+
+span.prices {font-family: Georgia;
+font-weight: 100;
+font-size: 16pt;
+font-style: italic;}
+
+
+
+
+
+.coffeehero {
+	margin-bottom: 60px;
+	float: left;
+	}
+
+.pictures {
+	display: inline;
+}
+.left-column,
+.right-column {
+	width: 250px;
+	float: left;
+	display:inline-block;
+height: 500px;}
+
+	.left-column {
+	margin-right: 0;
+margin-left: 12%;
+margin-top: 7%;
+}
+	.right-column {
+		margin-right: 520%;
+		margin-left:220%;
+		margin-top: -262%;}
+
+.menutitles {
+	font-family: Georgia;
+	font-size: 28pt;
+	font-style: italic; 
+	display: block;
+	list-style: none;
+	font-weight: 100;
+	}
+ul.menuitems {
+	font-family: Helvetica;
+	font-size: 16pt;
+	list-style: none;
+	font-style: none;
+	padding-bottom: 100px;
+}
+ul.coffeebar li {
+	font-family: Georgia;
+	font-size: 16pt;}
+
+.subcolumn-left {
+	width:250px;
+	float: left;
+	display: inline-block;
+	margin-left: 10%;
+margin-right: 80%;
+margin-top: 30px;
 }
 
-body {
-	background: #ffffff;
-	font-family: 'Georgia', ;
-	font-weight: ;
-	text-align: center;
-	color: #9d8235;
+.subcolumn-right {
+	width: 250px;
+	float: left;
+	display: inline-block;
+	margin-left: 80%;
+	margin-right: 10%;
+	margin-top: -120px;
 }
+
+footer { width: 1580px;
+	background color: #0f0f0f;
+border-top: 1px solid #9d8235;
+margin-left: -900px;
+margin-top: 500px;
+}
+
+.footerlogo {
+	margin-left: -170px;
+	width: 165px;
+	height: 90px;
+}
+
+
+
+
+
+
+
+
