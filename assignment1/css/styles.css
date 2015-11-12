@@ -9,25 +9,29 @@ brown 9d8235
 /*header styles*/
 body{font-family: Georgia;
 color: #9d8235;
-font-size: 12pt;
-font-weight: 100;}
+
+font-weight: 100;
+text-align: center;}
 
 .headerlogo {
 	display:block;
-	margin-left: 540px;
-	margin-right:540px
-	bottom: 40px;
+	text-align: center;
 }
 
 
 .toprule {
 	border-top: 1px solid #9d8235;
 	width: 470px;
-	margin-left: 470px;
-	margin-right: 470px; 
-	margin-bottom: 20px;
-	margin-top: 40px;
+	margin: auto;
+	padding-top: 40px;
+	;
 
+}
+.navigation {display: block;
+	margin: auto;
+	text-align: left;
+	padding: 20px;
+	
 }
 .home { font-weight: bold;
 text-align:center;
@@ -44,29 +48,27 @@ font-style: italic;}
 
 
 .coffeehero {
-	margin-bottom: 60px;
-	float: left;
+	display:block;
+	text-align: center;
+	margin: auto;
 	}
 
-.pictures {
-	display: inline;
+.menuspace {
+	display: block;
+	width: 1000px;
+	height: 450px;
+	margin: auto;
+	text-align: center;
 }
-.left-column,
-.right-column {
-	width: 250px;
-	float: left;
-	display:inline-block;
-height: 500px;}
 
-	.left-column {
-	margin-right: 0;
-margin-left: 12%;
-margin-top: 7%;
+.left-column, .right-column {
+	width:490px;
+	display: inline-block;
+	list-style: none;
 }
-	.right-column {
-		margin-right: 520%;
-		margin-left:220%;
-		margin-top: -262%;}
+
+	
+
 
 .menutitles {
 	font-family: Georgia;
@@ -76,33 +78,14 @@ margin-top: 7%;
 	list-style: none;
 	font-weight: 100;
 	}
+
+
 ul.menuitems {
 	font-family: Helvetica;
 	font-size: 16pt;
 	list-style: none;
 	font-style: none;
-	padding-bottom: 100px;
-}
-ul.coffeebar li {
-	font-family: Georgia;
-	font-size: 16pt;}
-
-.subcolumn-left {
-	width:250px;
-	float: left;
-	display: inline-block;
-	margin-left: 10%;
-margin-right: 80%;
-margin-top: 30px;
-}
-
-.subcolumn-right {
-	width: 250px;
-	float: left;
-	display: inline-block;
-	margin-left: 80%;
-	margin-right: 10%;
-	margin-top: -120px;
+	
 }
 
 footer { width: 1580px;
