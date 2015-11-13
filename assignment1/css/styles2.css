@@ -1,0 +1,52 @@
+/*
+Color Key
+-----------
+
+brown 9d8235
+
+*/
+
+/*header styles*/
+body{font-family: Georgia;
+color: #9d8235;
+
+font-weight: 100;
+text-align: center;}
+
+.headerlogo {
+	display:block;
+	text-align: center;
+}
+
+
+.navigation {
+	border-top: 1px solid #9d8235;
+	width: 470px;
+	margin: auto;
+	padding-top: 40px;
+	display: block;
+	margin: auto;
+	text-align: left;
+	padding-bottom: 20px;
+	
+}
+.home { font-weight: bold;
+text-align:center;
+padding-left: 500px;}
+	
+
+span.prices {font-family: Georgia;
+font-weight: 100;
+font-size: 16pt;
+font-style: italic;}
+
+
+
+
+
+.coffeehero {
+	display:block;
+	text-align: center;
+	margin: auto;
+	}
+
