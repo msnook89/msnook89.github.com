@@ -9,6 +9,6 @@ Projects
 * [Header](http://msnook89.github.io/header "Header")
 * [Grid](http://msnook89.github.io/grid "Grid")
 * [Advanced (CSS3, jQuery Slideshow & Web Fonts)](http://msnook89.github.io/advanced "Advanced")
-* [Scroll Events](http://msnook89.github.io/scrollit "Scroll Events")
+* [Scroll Events](http://msnook89.github.io/scrolling "Scroll Events")
 * [Lightbox](http://msnook89.github.io/lightbox "lightbox")
 * [Assignment #2 - Portfolio Website](http://msnook89.github.io/assignment2 "Assignment #2")
