@@ -1,49 +1,52 @@
 
 .wrapper {
 	text-align: center;
-	display: block;
+	display: inline block;
 	position: relative;
 	}
 
 .targetone {
-	display: inline block;
-  float: right;
-  margin-right: 50px;
-  text-align: center;
+
+text-align: center;
+  margin-left: 900px;
   margin-top: -300px;
-  position: relative;
+   position: absolute;
   background: transparent;
-  transition: all 2000ms ease-in-out;
- 
+  display:  block;
 }
 
 .targettwo {
-	display: inline block;
-  float: right;
-  margin-right: 550px;
-  text-align: center;
-  margin-top: -900px;
-  position: relative;
-  background: transparent;
-  transition: all 2000ms ease-in-out;
-
+	display: block;
   
+  margin-left: 550px;
+   text-align: center;
+  margin-top: -900px;
+  position: absolute;
+  background: transparent;
 }
 
 .targetthree {
-	display: inline block;
-  float: right;
-  margin-right: 350px;
-  text-align: center;
-  margin-top: -460px;
-  position: relative;
+	display:block;
+  margin-left: 350px;
+  margin-top: -660px;
+ position: absolute;
   background: transparent;
-  transition: all 2000ms ease-in-out;}
+  }
 
-  .hover {
-  	color:#cc0000
+.targetone:hover {
+    opacity: .5;
+    background-color: red;
   }
 	
+  .targettwo:hover {
+    opacity: .5;
+    background-color: red;
+  }
+
+  .targetthree:hover {
+    opacity: .5;
+    background-color: red;
+  }
 
 
 
