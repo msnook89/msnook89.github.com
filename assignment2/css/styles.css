@@ -1,0 +1,54 @@
+
+.wrapper {
+	text-align: center;
+	display: block;
+	position: relative;
+	}
+
+.targetone {
+	display: inline block;
+  float: right;
+  margin-right: 50px;
+  text-align: center;
+  margin-top: -300px;
+  position: relative;
+  background: transparent;
+  transition: all 2000ms ease-in-out;
+ 
+}
+
+.targettwo {
+	display: inline block;
+  float: right;
+  margin-right: 550px;
+  text-align: center;
+  margin-top: -900px;
+  position: relative;
+  background: transparent;
+  transition: all 2000ms ease-in-out;
+
+  
+}
+
+.targetthree {
+	display: inline block;
+  float: right;
+  margin-right: 350px;
+  text-align: center;
+  margin-top: -460px;
+  position: relative;
+  background: transparent;
+  transition: all 2000ms ease-in-out;}
+
+  .hover {
+  	color:#cc0000
+  }
+	
+
+
+
+
+
+
+
+
