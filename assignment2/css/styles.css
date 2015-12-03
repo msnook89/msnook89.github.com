@@ -2,22 +2,28 @@
 .wrapper {
 	text-align: center;
 	display: inline block;
-	position: relative;
+	position: absolute;
 	}
+
+  .logo { 
+  display: inline-block;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    top: 50px;
+    left: 12px;
+    }
 
 .targetone {
 
-text-align: center;
-  margin-left: 900px;
-  margin-top: -300px;
-   position: absolute;
-  background: transparent;
-  display:  block;
+display: block;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 90px;
+    left: 600px;
+    cursor: pointer;
 }
-.Billy { display: none;}
-
-.Billy:hover +img{
-   display: block;}
 
 .targettwo {
 	display: block;
@@ -29,24 +35,14 @@ text-align: center;
     cursor: pointer;
 }
 
-.folder2 {
-  display: block;
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    top: 50px;
-    left: 500px;
-    opacity: 0;
-    cursor: pointer;
-}
-
-
 .targetthree {
-	display:block;
-  margin-left: 350px;
-  margin-top: -660px;
- position: absolute;
-  background: transparent;
+	display: block;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 500px;
+    left: 70px;
+    cursor: pointer;
   }
 
 .targetone:hover {
@@ -56,10 +52,9 @@ text-align: center;
 	
   .targettwo:hover {
     opacity: .5;
+    background-color: red;
   }
-  .targettwo:hover .folder2 {
-    opacity: 1;
-  }
+  
 
   .targetthree:hover {
     opacity: .5;
@@ -67,6 +62,31 @@ text-align: center;
   }
 
 
+/* light box images */
+
+#content {
+  width: 940px;
+  margin: 100px auto 0px auto;}
+
+  .folder {
+  width: 220px;
+  height: 1800px;
+  position: absolute;
+  background opacity: 1;
+  text-align: center;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+
+220px;
+  height: 180px;
 
 
 
