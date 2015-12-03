@@ -48,6 +48,7 @@ display: block;
 .targetone:hover {
     opacity: .5;
     background-color: red;
+    
   }
 	
   .targettwo:hover {
