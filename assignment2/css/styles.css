@@ -14,16 +14,32 @@ text-align: center;
   background: transparent;
   display:  block;
 }
+.Billy { display: none;}
+
+.Billy:hover +img{
+   display: block;}
 
 .targettwo {
 	display: block;
-  
-  margin-left: 550px;
-   text-align: center;
-  margin-top: -900px;
-  position: absolute;
-  background: transparent;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 50px;
+    left: 400px;
+    cursor: pointer;
 }
+
+.folder2 {
+  display: block;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 50px;
+    left: 500px;
+    opacity: 0;
+    cursor: pointer;
+}
+
 
 .targetthree {
 	display:block;
@@ -40,7 +56,9 @@ text-align: center;
 	
   .targettwo:hover {
     opacity: .5;
-    background-color: red;
+  }
+  .targettwo:hover .folder2 {
+    opacity: 1;
   }
 
   .targetthree:hover {
