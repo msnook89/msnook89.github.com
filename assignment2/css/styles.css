@@ -2,6 +2,7 @@
 .wrapper {
 	text-align: center;
 	display: inline block;
+<<<<<<< HEAD
 	position: relative;
   background-color: black;
   background-size: auto;
@@ -25,11 +26,35 @@
   margin-top: -300px;
   position: absolute;
  cursor: pointer !important;
+=======
+	position: absolute;
+	}
+
+  .logo { 
+  display: inline-block;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    top: 50px;
+    left: 12px;
+    }
+
+.targetone {
+
+display: block;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 90px;
+    left: 600px;
+    cursor: pointer;
+>>>>>>> origin/master
 }
 
 .targettwo {
   text-align: center;
 	display: block;
+<<<<<<< HEAD
   margin-left: 550px;
   margin-top: -900px;
   position: absolute;
@@ -44,17 +69,37 @@
   position: absolute;
   cursor: pointer !important;
 
+=======
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 50px;
+    left: 400px;
+    cursor: pointer;
+}
+
+.targetthree {
+	display: block;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 500px;
+    left: 70px;
+    cursor: pointer;
+>>>>>>> origin/master
   }
 
   .targetone:hover {
     opacity: .8;
     background-color: red;
+    
   }
 	
   .targettwo:hover {
     opacity: .2;
     background-color: red;
   }
+  
 
   .targetthree:hover {
     opacity: .5;
@@ -92,6 +137,31 @@
 
 
 
+/* light box images */
+
+#content {
+  width: 940px;
+  margin: 100px auto 0px auto;}
+
+  .folder {
+  width: 220px;
+  height: 1800px;
+  position: absolute;
+  background opacity: 1;
+  text-align: center;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+
+220px;
+  height: 180px;
 
 
 
