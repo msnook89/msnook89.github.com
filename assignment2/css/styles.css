@@ -3,43 +3,56 @@
 	text-align: center;
 	display: inline block;
 	position: relative;
+  background-color: black;
+  background-size: auto;
 	}
+
+.logo {
+  text-align: center;
+  display:  block;
+  margin-left: 50px;
+  margin-top: -200px;
+  position: absolute;
+ cursor: pointer !important;
+}
+
 
 .targetone {
 
-text-align: center;
+  text-align: center;
+  display: block;
   margin-left: 900px;
   margin-top: -300px;
-   position: absolute;
-  background: transparent;
-  display:  block;
+  position: absolute;
+ cursor: pointer !important;
 }
 
 .targettwo {
+  text-align: center;
 	display: block;
-  
   margin-left: 550px;
-   text-align: center;
   margin-top: -900px;
   position: absolute;
-  background: transparent;
+  cursor: pointer !important;
 }
 
 .targetthree {
-	display:block;
+  text-align: center;
+	display: block;
   margin-left: 350px;
   margin-top: -660px;
- position: absolute;
-  background: transparent;
+  position: absolute;
+  cursor: pointer !important;
+
   }
 
-.targetone:hover {
-    opacity: .5;
+  .targetone:hover {
+    opacity: .8;
     background-color: red;
   }
 	
   .targettwo:hover {
-    opacity: .5;
+    opacity: .2;
     background-color: red;
   }
 
@@ -47,6 +60,36 @@ text-align: center;
     opacity: .5;
     background-color: red;
   }
+
+  /*Billy*/
+
+  #content {
+  width: 940px;
+  margin: 100px auto 0px auto;
+  text-align: center;
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: -800px;
+  position: absolute;
+ cursor: pointer !important;
+}
+
+.project {
+  width: 257px;
+  height: 164px;
+  background: #cccccc;
+  color: #ffffff;
+  text-align: center;
+  line-height: 100px;
+  float: left;
+  margin-right: 150px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;}
+
 
 
 
